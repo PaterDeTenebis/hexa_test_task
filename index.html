@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Test Assignment</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/css/style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <nav class="header_nav">
+                <div class="header_nav_logo">
+                    <a href="#"><img src="libs/img/Logo.png" alt="Logo"></a>
+                </div>
+                <button class="header_nav_toggler">&#9776;</button>
+                <div class="header_nav_holder">
+                    <div class="header_nav_holder_item">
+                        <a href="#" class="header_nav_holder_item_link unselectable" id="Magnificent_toggler_nav">Magnificent</a>
+                    </div>
+                    <div class="header_nav_holder_item">
+                        <a href="#" class="header_nav_holder_item_link unselectable" id="Unrivalled_toggler_nav">Unrivalled</a>
+                    </div>
+                    <div class="header_nav_holder_item">
+                        <a href="#" class="header_nav_holder_item_link unselectable" id="Inimitable_toggler_nav">Inimitable</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="main">
+        <div class="container">
+            <div class="main_top_slogan">
+                <span class="main_top_slogan_text unselectable">
+                    Magnificent
+                </span>
+            </div>
+            <div class="main_face">
+                <div class="main_face_name">
+                    <span class="main_face_name_text unselectable">
+                        The name is Kukharets. Serhii Kukharets.
+                    </span>
+                </div>
+                <div class="main_face_gallery">
+                    <div class="main_face_gallery_tabs">
+                        <button class="main_face_gallery_tabs_item" id="Magnificent_toggler">Magnificent</button>
+                        <button class="main_face_gallery_tabs_item" id="Unrivalled_toggler">Unrivalled</button>
+                        <button class="main_face_gallery_tabs_item" id="Inimitable_toggler">Inimitable</button>
+                    </div>
+                    <select class="main_face_gallery_tabs_item gallery_tabs_mobile">
+                        <option value="0" class="main_face_gallery_tabs_item Magnificent_toggler_mobile" id="Magnificent_toggler_mobile">Magnificent</option>
+                        <option value="1" class="main_face_gallery_tabs_item Unrivalled_toggler_mobile" id="Unrivalled_toggler_mobile">Unrivalled</option>
+                        <option value="2" class="main_face_gallery_tabs_item Inimitable_toggler_mobile" id="Inimitable_toggler_mobile">Inimitable</option>
+                    </select>
+                    
+                    <div class="main_face_gallery_content tab_active" id="gallery_Magnificent">
+                        <div class="main_face_gallery_content_top">
+                            <span class="main_face_gallery_content_top_text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. consequat sunt nostrud amet.
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </span>
+                        </div>
+                        <div class="main_face_gallery1_content_images">
+                            <div class="main_face_gallery_content_images_item slides1" style="display: block!important" id="slides1"> 
+                                <img src="libs/img/Img.png" alt="">
+                            </div>
+                            <div class="main_face_gallery_content_images_item slides1" id="slides1">
+                                <img src="libs/img/Img (1).png" alt="">
+                            </div>
+                            <div class="main_face_gallery_content_images_item slides1" id="slides1">
+                                <img src="libs/img/Img (2).png" alt="">
+                            </div>
+                            <div class="main_face_gallery_content_images_dots">
+                                <button class="main_face_gallery_content_images_dots_item dots1" onclick="currentSlide(1)" id="dots1"></button>
+                                <button class="main_face_gallery_content_images_dots_item dots1" onclick="currentSlide(2)" id="dots1"></button>
+                                <button class="main_face_gallery_content_images_dots_item dots1" onclick="currentSlide(3)" id="dots1"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_face_gallery_content" id="gallery_Unrivalled">
+                        <div class="main_face_gallery_content_top">
+                            <span class="main_face_gallery_content_top_text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. consequat sunt nostrud amet.
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus impedit aspernatur cumque facere expedita, voluptatibus cum ex dolor ad odit?
+                            </span>
+                        </div>
+                        <div class="main_face_gallery1_content_images">
+                            <div class="main_face_gallery_content_images_item slides2" style="display: block!important" id="slides2">
+                                <img src="libs/img/Img (1).png" alt="">
+                            </div>
+                            <div class="main_face_gallery_content_images_item slides2" id="slides2">
+                                <img src="libs/img/Img.png" alt="">
+                            </div>
+                            <div class="main_face_gallery_content_images_item slides2" id="slides2">
+                                <img src="libs/img/Img (2).png" alt="">
+                            </div>
+                            <div class="main_face_gallery_content_images_dots">
+                                <button class="main_face_gallery_content_images_dots_item dots2" onclick="currentSlide2(1)" id="dots2"></button>
+                                <button class="main_face_gallery_content_images_dots_item dots2" onclick="currentSlide2(2)" id="dots2"></button>
+                                <button class="main_face_gallery_content_images_dots_item dots2" onclick="currentSlide2(3)" id="dots2"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_face_gallery_content" id="gallery_Inimitable">
+                        <div class="main_face_gallery_content_top">
+                            <span class="main_face_gallery_content_top_text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. consequat sunt nostrud amet.
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea qui tenetur voluptatum dolore nisi repellendus unde corporis harum beatae excepturi. Doloribus saepe totam tempore debitis laborum sequi id suscipit quia corporis omnis tempora deserunt praesentium nihil quas, vero incidunt! Autem?
+                            </span>
+                        </div>
+                        <div class="main_face_gallery1_content_images">
+                            <div class="main_face_gallery_content_images_item slides3" style="display: block!important">
+                                <img src="libs/img/Img (3).png" alt="">
+                            </div>
+                            <div class="main_face_gallery_content_images_item slides3">
+                                <img src="libs/img/Img.png" alt="">
+                            </div>
+                            <div class="main_face_gallery_content_images_item slides3">
+                                <img src="libs/img/Img (2).png" alt="">
+                            </div>
+                            <div class="main_face_gallery_content_images_dots">
+                                <button class="main_face_gallery_content_images_dots_item dots3" onclick="currentSlide3(1)"></button>
+                                <button class="main_face_gallery_content_images_dots_item dots3" onclick="currentSlide3(2)"></button>
+                                <button class="main_face_gallery_content_images_dots_item dots3" onclick="currentSlide3(3)"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="libs/js/main.js"></script>
+</body>
+</html>

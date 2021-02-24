@@ -1,0 +1,91 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1539px;
+    }
+    .main_top_slogan span.main_top_slogan_text {
+        font-size: 160px;
+    }
+}
+@media screen and (max-width: 1148px) {
+    .main_face {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .main_top_slogan span.main_top_slogan_text {
+        font-size: 114px;
+    }
+    .main_face .main_face_name {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .main_face .main_face_gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_top_slogan span.main_top_slogan_text {
+        font-size: 77px;
+    }
+    .main_face .main_face_name {
+        margin-top: -35px;
+    }
+    .main_face .main_face_name span.main_face_name_text {
+        font-size: 42px;
+    }
+    .main_face .main_face_gallery {
+        margin-top: 30px;
+    }
+    .main_face .main_face_gallery .main_face_gallery_content {
+        text-align: center;
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    .main_face .main_face_gallery .main_face_gallery_content .main_face_gallery1_content_images {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main_face .main_face_gallery .main_face_gallery_content .main_face_gallery1_content_images .main_face_gallery_content_images_item {
+        max-width: 100%;
+        width: 100%;
+    }
+    .main_face .main_face_gallery .main_face_gallery_content .main_face_gallery1_content_images .main_face_gallery_content_images_item img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .main_top_slogan span.main_top_slogan_text {
+        font-size: 50px;
+        letter-spacing: 6px;
+    }
+    .main_face .main_face_name {
+        max-width: 70%;
+    }
+    nav.header_nav .header_nav_holder {
+        display: none;
+    }
+    nav.header_nav button.header_nav_toggler {
+        display: block;
+    }
+    .main_face .main_face_gallery .main_face_gallery_tabs {
+        display: none;
+    }
+    select.gallery_tabs_mobile {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
